@@ -1,0 +1,249 @@
+
+body {
+  /*font-family: 'OpenSans';*/
+  color: #7b7b7b;
+}
+
+#img_container {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#img_container img {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#img_container img {
+  -webkit-animation-name: fadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 32s;
+  -moz-animation-name: fadeInOut;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 32s;
+  -o-animation-name: fadeInOut;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 32s;
+  animation-name: fadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 32s;
+}
+
+#img_container img:nth-of-type(1) {
+  -webkit-animation-delay: 24s;
+  -moz-animation-delay: 24s;
+  -o-animation-delay: 24s;
+  animation-delay: 24s;
+}
+
+#img_container img:nth-of-type(2) {
+  -webkit-animation-delay: 16s;
+  -moz-animation-delay: 16s;
+  -o-animation-delay: 16s;
+  animation-delay: 16s;
+}
+
+#img_container img:nth-of-type(3) {
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  -o-animation-delay: 8s;
+  animation-delay: 8s;
+}
+
+#img_container img:nth-of-type(4) {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+}
+
+h1, h2 {
+  color: #000 !important;
+  margin: 0;
+  padding: 0;
+}
+
+.panel-body h1, .panel-body h2 {
+  color: #7b7b7b !important;
+}
+
+h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E2E2E2;
+}
+
+h3 > a {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+.logo-cf {
+  border-width: 0;
+  border: 0;
+  margin-top: -8px;
+  width: 180px;
+}
+
+.page-header {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.add_icon {
+  margin: 20px 0;
+}
+
+.add_icon a {
+  color: #fff;
+}
+
+.asterisk {
+  color: #ff6161;
+}
+
+.thumbnail {
+  border-radius: 0px;
+  border: 1px solid rgba(74, 74, 74, 0.075);
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  margin-bottom: 30px;
+}
+
+.test {
+  background-color: #EEE;
+}
+
+span.alink {
+  font-size: 11px;
+  padding-left: 10px;
+  line-height: 26px;
+}
+
+span.alink:hover {
+  text-decoration: underline;
+}
+
+.thumbnail .caption {
+  padding: 0;
+  color: #7b7b7b;
+}
+
+.thumbnail .caption p {
+  padding: 0;
+  margin: 0;
+  line-height: 24px;
+}
+
+.thumbnail .caption p label {
+  padding-right: 5px;
+  font-weight: normal;
+  font-family: Georgia;
+  font-style: italic;
+}
+
+.caption .desc {
+  font-size: 13px;
+  line-height: 18px;
+  height: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.caption .rate {
+  color: #08b;
+  font-family: OpenSansB;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.pledge_form {
+  background: #fff;
+}
+
+.pledge_form label, .pledge_form input {
+  float: left;
+  font-family: 'OpenSansSB';
+  font-weight: normal;
+}
+
+.pledge_form label {
+  font-family: Georgia;
+  font-style: italic;
+}
+
+.pledge_form input {
+  width: 85px;
+  width: 50%;
+  padding: 7px 10px;
+}
+
+.pledge_form input:focus {
+  box-shadow: none;
+}
+
+.pledge_form input[type='number'] {
+  box-shadow: none;
+  margin: 0;
+  border: 1px solid #E0E0E0;
+}
+
+.pledge_form input[type='submit'] {
+  border-radius: 0;
+}
+
+#home_page {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#home_page ul {
+  margin-top: 40px;
+}
+
+#home_page ul li {
+  display: inline-block;
+}
+
+#home_page ul li a {
+  color: #fff;
+}
+
+.pledge_container {
+  padding: 10px;
+  color: #000;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.pledge_container a {
+  color: #08b;
+}
+
+a.back_btn {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a.back_btn:hover {
+  text-decoration: none;
+}
+
+.panel {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.form_group{
+  margin: auto;
+  display: flex;
+  width: 50%;
+}
